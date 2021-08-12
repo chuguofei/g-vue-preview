@@ -22,7 +22,7 @@ module.exports = {
     },
     devServer: {
         contentBase: "/",
-        port: 8080,
+        port: 3000,
         hot: true,
         clientLogLevel: 'none',
         open: false

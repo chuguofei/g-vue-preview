@@ -4,7 +4,7 @@ const TerserPlugin = require("terser-webpack-plugin");
 const baseWebpackConfig = require('./webpack.base.conf')
 
 
-module.exports = merge(baseWebpackConfig,{
+module.exports = merge(baseWebpackConfig, {
     entry: {
         app: './src/index.js'
     },
@@ -15,6 +15,8 @@ module.exports = merge(baseWebpackConfig,{
     output: {
         path: path.resolve(__dirname, '../dist'),
         filename: 'g-vue-preview.js',
-        library: 'GVuePreview',
+        publicPath: "/dist/",
+        libraryTarget: "umd",
+        umdNamedDefine: true
     },
 })

@@ -37,7 +37,7 @@ const DEFAULT_MAX_SCALE = 5; // 最大放大比例
 const DEFAULT_MIN_SCALE = 0.1; // 最小放大比例
 const DEFAULT_ANGLE = 90; //默认旋转的角度
 export default {
-  // name:"GImgViewer",
+  name:"GVuePreview",
   components: { imgHandle },
   props: {
     src: {

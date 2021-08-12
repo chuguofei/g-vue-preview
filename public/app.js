@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import App from './app.vue';
-import GVuePreView from '@/main'
+import GVuePreView from '../src/index.js'
 
 Vue.use(GVuePreView)
 
