@@ -6,7 +6,7 @@ const baseWebpackConfig = require('./webpack.base.conf')
 
 module.exports = merge(baseWebpackConfig,{
     entry: {
-        app: './public/app.js'
+        app: './src/index.js'
     },
     optimization: {
         minimize: true,

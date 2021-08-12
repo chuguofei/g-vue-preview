@@ -9,9 +9,6 @@ const devtool = env === 'production' ? 'source-map' : 'eval-source-map'
 module.exports = {
     mode: env,
     devtool,
-    entry: {
-        app: './public/app.js'
-    },
     output: {
         path: path.resolve(__dirname, '../dist'),
         publicPath: '/',

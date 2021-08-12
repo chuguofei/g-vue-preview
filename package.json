@@ -1,17 +1,25 @@
 {
   "name": "g-vue-preview",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "基于vue的一个图片预览插件",
-  "main": "index.js",
+  "main": "dist/g-vue-preview.js",
   "scripts": {
     "dev": "webpack server --config build/webpack.dev.conf.js --hot",
     "build": "cross-env NODE_ENV=production webpack --config build/webpack.prod.conf.js --progress"
   },
+  "keywords": [
+    "vue",
+    "图片预览"
+  ],
   "author": "1633295391@qq.com",
   "license": "ISC",
   "dependencies": {
     "screenfull": "^5.1.0",
     "vue": "^2.6.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chuguofei/g-vue-preview.git"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
